@@ -33,7 +33,7 @@ app.options('/', function (request, response) {
 
 	// The block definition
 	response.send({
-		name: "Parse Markdown",
+		name: "Mustache Formatter",
 		description: "Converts template and input keys into an output string.",
 		inputs: [{
 			name: "template",
