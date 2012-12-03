@@ -6,4 +6,4 @@ Takes two inputs: "template" and "*" meaning it can take any input keys. It uses
 
 	curl -v -X OPTIONS http://block-formatter.herokuapp.com
 	
-	curl -i -X POST -d '{"inputs":[{"template":"Hello {{name}}!", "*":{"name":"Matthew"}}]}' -H "Content-Type: application/json" http://block-formatter.herokuapp.com
+	curl -i -X POST -d '{"inputs":[{"template":"Hello {{name}}!", name":"Matthew"}]}' -H "Content-Type: application/json" http://block-formatter.herokuapp.com

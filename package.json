@@ -1,13 +1,12 @@
 {
     "name": "block-formatter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "node": "0.6.12",
         "npm": "1.1.9"
     },
     "dependencies": {
-        "express": "3.0.3",
-        "underscore": "1.4.2",
+        "node-webpipe": ">= 0.0.3",
         "mustache": "0.7.0"
     }
 }
